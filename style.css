@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    margin: 0px 30px;
+}
+div nav ul{
+    list-style: none;
+}
+div nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 5px 30px;
+}
+div nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: tomato;
+    font-size: 20px;
+}
+div nav ul li a:hover{
+    background-color: springgreen;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+.logo{
+    width: auto;
+    height: 50px;
+    margin: 0px 20px;
+    padding: 0px 5px;
+    border-radius: 30%;
+}
+.button{
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.button:hover{
+    background-color: red;
+    color: black;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border-radius: 10%;
+}
+#hero{
+    margin: 10px 30px;
+    padding: 0px 30px;
+    height: 400px;
+    width: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: goldenrod;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.article{
+    width: 500px;
+}
+.article-button{
+    margin-top: 50px;
+}
+.hero-pic{
+    height: 350px;
+    width: 550px;
+    border-radius: 10%;
+}
